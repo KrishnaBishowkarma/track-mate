@@ -1,0 +1,101 @@
+# ---------------------------------
+# Build & Output
+ ---------------------------------
+/target/
+build/
+out/
+
+# Ignore build folders in all submodules except source dirs
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ---------------------------------
+# Maven
+# ---------------------------------
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# Maven Wrapper
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+
+# ---------------------------------
+# Compiled class files and logs
+# ---------------------------------
+*.class
+*.log
+
+# ---------------------------------
+# Package Files
+# ---------------------------------
+*.jar
+*.war
+*.ear
+
+# ---------------------------------
+# Spring Specific
+# ---------------------------------
+.spring-boot-devtools.properties
+
+# ---------------------------------
+# Environment Config
+# ---------------------------------
+.env
+application-*.yml
+application-*.properties
+
+# ---------------------------------
+# IDEs
+# ---------------------------------
+
+## IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+## Eclipse
+.classpath
+.project
+.settings/
+
+## Spring Tool Suite (STS)
+.apt_generated
+.factorypath
+.springBeans
+.sts4-cache
+
+## NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+## VS Code
+.vscode/
+
+# ---------------------------------
+# OS Files
+# ---------------------------------
+.DS_Store
+Thumbs.db
+
+# ---------------------------------
+# Misc
+# ---------------------------------
+HELP.md
+
+
+# ---------------------------------
+# Own
+# ---------------------------------
+notes.txt
+README.md
